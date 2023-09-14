@@ -1,0 +1,21 @@
+<div class="container">
+  <h2>Ajouter un produit</h2>
+  <form (ngSubmit)="onSubmit()" class="my-3">
+    <div class="form-group">
+      <label for="name">Nom du produit :</label>
+      <input type="text" class="form-control" id="name" [(ngModel)]="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="type">Type de produit :</label>
+      <select class="form-control" id="type" [(ngModel)]="typeId" name="typeId" required>
+        <option value="" disabled selected>Sélectionnez un type</option>
+        <!-- Utilisez une boucle *ngFor pour afficher les types de produits -->
+        <option *ngFor="let productType of productTypes" [value]="productType.id">{{ productType.name }}</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Ajouter le produit</button>
+  </form>
+  <div *ngIf="errorMessage" class="alert alert-danger mt-3">
+    {{ errorMessage }}
+  </div>
+</div>

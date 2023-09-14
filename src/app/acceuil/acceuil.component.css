@@ -1,0 +1,38 @@
+/* Ajustez la taille de l'image pour qu'elle occupe toute la page */
+.full-page-image {
+  width: 100%;
+  height: 100vh; /* 100% de la hauteur de la vue */
+  object-fit: cover; /* Pour conserver les proportions de l'image */
+}
+
+/* Centrez le bouton en haut à droite de la page */
+.connect-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Ajustez la taille de l'image pour qu'elle occupe toute la page */
+.full-page-image {
+  width: 100%;
+  height: 100vh; /* 100% de la hauteur de la vue */
+  object-fit: cover; /* Pour conserver les proportions de l'image */
+}
+
+/* Centrez le bouton en haut à droite de la page */
+.connect-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+  cursor: pointer; 
+}

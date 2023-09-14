@@ -1,0 +1,12 @@
+<!-- add-product-type.component.html -->
+<div class="container">
+    <h2>Ajouter un nouveau type de produit</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="typeName">Nom du type de produit :</label>
+        <input type="text" class="form-control" id="typeName" [(ngModel)]="typeName" name="typeName" required>
+    </div>
+      <button type="submit" class="btn btn-primary">Ajouter le type de produit</button>
+    </form>
+  </div>
+  
