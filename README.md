@@ -16,4 +16,4 @@ Mode d'utilisation:
  passe afin qu'il pointe sur votre base de données local, et creer un utilisateur qui vous permettra de vous connecter.
 - Naviger vers le repertoire modelsis-springboot-fullstack, Compilez et exécutez le projet en utilisant "mvn spring-boot:run"
 - Naviger vers le repertoire modelsis-angular-fullstack, Compilez et exécutez le projet en utilisant "ng serve"
-- C'est tout, vous n'avez qu'à tester les differentes fonctionalités
+- C'est tout, vous n'avez qu'à tester les differentes fonctionalités en "localhost:4200".
