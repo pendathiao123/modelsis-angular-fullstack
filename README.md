@@ -17,3 +17,4 @@ Mode d'utilisation:
 - Naviger vers le repertoire modelsis-springboot-fullstack, Compilez et exécutez le projet en utilisant "mvn spring-boot:run"
 - Naviger vers le repertoire modelsis-angular-fullstack, Compilez et exécutez le projet en utilisant "ng serve"
 - C'est tout, vous n'avez qu'à tester les differentes fonctionalités en "localhost:4200".
+  NB: utiliser la branche master.
