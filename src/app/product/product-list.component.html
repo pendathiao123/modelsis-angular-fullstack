@@ -1,0 +1,38 @@
+<div class="container">
+  <h2>Liste des Produits</h2>
+  <button class="btn btn-success" (click)="showAddForm()">Ajouter</button>
+  <button class="btn btn-primary" (click)="onAddProductTypeClick()">Ajouter un nouveau type</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Created Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.type.name}}</td>
+        <td>{{ product.createdDate | date }}</td> 
+        <td>
+          <button
+            class="btn btn-info"
+            [routerLink]="['/update', product.id]"
+          >
+            Modifier
+          </button>
+          <button
+            class="btn btn-danger"
+            (click)="product.id && deleteProduct(product.id)"
+          >
+            Supprimer
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
