@@ -15,5 +15,5 @@ Mode d'utilisation:
 - Ouvrez le backend(modelsis-springboot-fullstack), dans src/ressources/application.properties modifiez l'URL de la base de données, ainsi que l'utilisateur et le mot de
  passe afin qu'il pointe sur votre base de données local, et creer un utilisateur qui vous permettra de vous connecter.
 - Naviger vers le repertoire modelsis-springboot-fullstack, Compilez et exécutez le projet en utilisant "mvn spring-boot:run"
-- Naviger vers le repertoire modelsis-angular-fullstack, Compilez et exécutez le projet en utilisant "ng serve"
+- Naviger vers le repertoire modelsis-angular-fullstack, installer d'abord les dépendances du projet avec "npm install", puis Compilez et exécutez le projet en utilisant "ng serve"
 - C'est tout, vous n'avez qu'à tester les differentes fonctionalités en "localhost:4200".
